@@ -371,3 +371,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/go,goland+all,linux,windows,dotenv,macos,git,sublimetext,visualstudiocode,jetbrains,vim
+__debug_bin

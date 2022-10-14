@@ -9,12 +9,11 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8000/products/83883f8e-fa09-449d-b497-289a89193188 HTTP/1.1
-Content-Type: application/json
 
 ###
 
 GET http://localhost:8000/products HTTP/1.1
-Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjU3NzY4NjgsIm5hbSI6IkpvaG4gRG9lIiwic3ViIjoiNmUzZDQ2OWQtYzRlZC00MGFjLTlkMGMtZGFjMGZjYTI2ZGI3In0.KuPmp3N19AnX6BLRf7RiMQU5s1SMxjlT5Qnm4-4seYI
 
 ###
 
