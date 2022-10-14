@@ -125,7 +125,7 @@ func TestDeleteProduct(t *testing.T) {
 	assert.NotEmpty(t, product.ID)
 
 	productDB := NewProduct(db)
-	err = productDB.Delete(product)
+	err = productDB.Delete(product.ID.String())
 	assert.NoError(t, err)
 
 	product, err = productDB.FindByID(product.ID.String())
